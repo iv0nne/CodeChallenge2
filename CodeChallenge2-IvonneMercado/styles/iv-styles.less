@@ -1,0 +1,146 @@
+.site{
+    width:100%;
+}
+@color-pink: #e91e63;
+@color-purple: #a680b8;
+@color-purple2: #966dab;
+@color-gray: #949494;
+@color-white: #ffffff;
+@color-green: #97D077;
+@color-cyan: #67AB9F;
+@color-black: #000;
+@base:10px;
+
+
+#generales {
+  font-family: helvetica, serif;
+  font-weight: bold;
+
+  header, h2, h3, .btn-primary, .btn-danger, .btn-success {
+    color: @color-white;
+  }
+  header {
+    background-color: @color-pink;
+    font-size: @base *2;
+    text-align: center;
+    height: @base *6;
+    padding-top: @base *2;
+  }
+  h2 , h3{
+       background-color: @color-gray;
+       font-size: @base *1.5 ;
+       padding: @base *1.5 ;
+       opacity: 0.5;
+       height: @base *4;
+       font-weight: bold;
+
+     }
+}
+
+.intro{
+    color: @color-gray;
+          p {
+            opacity: 0.8;
+          }
+          h1{
+              color: @color-pink;
+              font-size: @base * 2;
+              font-weight: bold;
+            small{
+              font-weight: bold;
+              opacity: 0.8;
+            }
+            #b2 ,#b3 {
+              position: relative;
+              float: right;
+              height: @base *2.5;
+              margin-right: @base;
+              vertical-align: center;
+            }
+          }
+    #imagen1{
+      float: left;
+      height: @base *15;
+      }
+  }
+
+.botones{
+
+      .btn-primary , .btn-danger , .btn-success{
+           width: @base *8;
+           height: @base * 2.5;
+           margin: 5px 5px 5px 0;
+           padding: 0;
+           font-weight: bold;
+           font-size: @base * 1.5;
+      }
+      .btn-primary{
+          background-color:@color-green;
+          border-color: @color-green;
+      }
+      .btn-primary:hover{
+          background-color: @color-cyan;
+          border-color: @color-cyan;
+      }
+      .btn-danger{
+          background-color: @color-purple;
+          border-color: @color-purple;
+      }
+      .btn-danger:hover{
+          background-color: @color-purple2 ;
+          border-color: @color-purple2;
+      }
+      .btn-success{
+          background-color: @color-cyan;
+          border-color: @color-cyan;
+      }
+      .btn-success:hover{
+        background-color:@color-green;
+        border-color: @color-green;
+      }
+}
+
+.GenInfo{
+  .izq {
+    opacity: 0.6;
+  }
+  .der {
+    opacity: 0.4;
+  }
+}
+
+.evolution {
+      .nombre{
+        height: @base ;
+        color: @color-black;
+        padding: 0;
+        font-size: @base *1.5;
+      }
+       .peq {
+        width: @base * 7;
+        height: @base * 2;
+        font-size: @base * 1.3;
+      }
+      #b4,#b5,#b6 {
+        float: left;
+        height: @base * 7;
+        border: solid @color-gray;
+        border-width: thin;
+        margin: @base *0.5 @base @base  @base *1.5;
+      }
+      .pret{
+           white-space: pre-wrap;
+           small{
+             opacity: 0.5;
+           }
+      }
+      .index  {
+        position:relative;
+        top:5px;
+        right: @base - 5;
+        float:right;
+        opacity: 0.5;
+
+      }
+  }
+

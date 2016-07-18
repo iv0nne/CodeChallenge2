@@ -1,0 +1,25 @@
+{
+  "name": "codechallenge-ivonnemercado",
+  "description": "Code Challenge 2 - Ivonne Mercado",
+  "main": "index.js",
+  "authors": [
+    "Ivonne Mercado"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "challenge",
+    "2",
+    "pokedex",
+    "ivonne",
+    "mercado"
+  ],
+  "homepage": "https://github.com/iv0nne/CodeChallenge2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

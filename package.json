@@ -1,0 +1,40 @@
+{
+  "name": "codechallenge-ivonnemercado",
+  "version": "1.0.0",
+  "description": "Code Challenge 2 - Ivonne Mercado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iv0nne/CodeChallenge2.git"
+  },
+  "keywords": [
+    "challenge",
+    "2",
+    "pokedex",
+    "ivonne",
+    "mercado"
+  ],
+  "author": "Ivonne Mercado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iv0nne/CodeChallenge2/issues"
+  },
+  "homepage": "https://github.com/iv0nne/CodeChallenge2#readme",
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "karma": "^1.1.1"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-less": "^3.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.8",
+    "jshint": "^2.9.2"
+  }
+}

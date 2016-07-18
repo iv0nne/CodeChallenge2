@@ -1,0 +1,131 @@
+.site {
+  width: 100%;
+}
+#generales {
+  font-family: helvetica, serif;
+  font-weight: bold;
+}
+#generales header,
+#generales h2,
+#generales h3,
+#generales .btn-primary,
+#generales .btn-danger,
+#generales .btn-success {
+  color: #ffffff;
+}
+#generales header {
+  background-color: #e91e63;
+  font-size: 20px;
+  text-align: center;
+  height: 60px;
+  padding-top: 20px;
+}
+#generales h2,
+#generales h3 {
+  background-color: #949494;
+  font-size: 15px;
+  padding: 15px;
+  opacity: 0.5;
+  height: 40px;
+  font-weight: bold;
+}
+.intro {
+  color: #949494;
+}
+.intro p {
+  opacity: 0.8;
+}
+.intro h1 {
+  color: #e91e63;
+  font-size: 20px;
+  font-weight: bold;
+}
+.intro h1 small {
+  font-weight: bold;
+  opacity: 0.8;
+}
+.intro h1 #b2,
+.intro h1 #b3 {
+  position: relative;
+  float: right;
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: center;
+}
+.intro #imagen1 {
+  float: left;
+  height: 150px;
+}
+.botones .btn-primary,
+.botones .btn-danger,
+.botones .btn-success {
+  width: 80px;
+  height: 25px;
+  margin: 5px 5px 5px 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.botones .btn-primary {
+  background-color: #97D077;
+  border-color: #97D077;
+}
+.botones .btn-primary:hover {
+  background-color: #67AB9F;
+  border-color: #67AB9F;
+}
+.botones .btn-danger {
+  background-color: #a680b8;
+  border-color: #a680b8;
+}
+.botones .btn-danger:hover {
+  background-color: #966dab;
+  border-color: #966dab;
+}
+.botones .btn-success {
+  background-color: #67AB9F;
+  border-color: #67AB9F;
+}
+.botones .btn-success:hover {
+  background-color: #97D077;
+  border-color: #97D077;
+}
+.GenInfo .izq {
+  opacity: 0.6;
+}
+.GenInfo .der {
+  opacity: 0.4;
+}
+.evolution .nombre {
+  height: 10px;
+  color: #000;
+  padding: 0;
+  font-size: 15px;
+}
+.evolution .peq {
+  width: 70px;
+  height: 20px;
+  font-size: 13px;
+}
+.evolution #b4,
+.evolution #b5,
+.evolution #b6 {
+  float: left;
+  height: 70px;
+  border: solid #949494;
+  border-width: thin;
+  margin: 5px 10px 10px 15px;
+}
+.evolution .pret {
+  white-space: pre-wrap;
+}
+.evolution .pret small {
+  opacity: 0.5;
+}
+.evolution .index {
+  position: relative;
+  top: 5px;
+  right: 5px;
+  float: right;
+  opacity: 0.5;
+}
